@@ -12,6 +12,8 @@ Run `npm i` and `npm run dev`
 
 ## Deployment
 
+Both client and server can be deployed on render.com
+
 ### Client
 
 Deploy as a Static site.
