@@ -19,7 +19,7 @@ connection.onmessage = async (event) => {
 
   // append received message from the server to the DOM element
   const newMsg = document.createElement("p");
-  newMsg.textContent = `${payload.user} said ${payload.message}`;
+  newMsg.textContent = `${payload.user} says ${payload.message}`;
   messages.appendChild(newMsg);
 };
 
